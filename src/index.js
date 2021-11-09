@@ -1,10 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import MaestroApp from "./MaestroApp.js";
 
-
-ReactDOM.render(
-    <MaestroApp />,
-  document.getElementById('root')
-);
-
-
+ReactDOM.render(<MaestroApp />, document.getElementById("root"));
